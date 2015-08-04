@@ -25,6 +25,6 @@ public interface UserDAO{
 	 * @param password 口令
 	 * @return 合法的用户对象
 	 */
-	public User validateUser(String username, String password);
+	public User validateUser(String usernam, String password);
 
 }
